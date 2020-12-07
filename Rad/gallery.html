@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet"href=css/style.css>
+     <title>Skåne Gallery</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>Visit Skåne</h1>   
+
+    </div>
+    
+    
+    <div id="navbar">
+
+        <a href="index.html">Home</a>
+        <a href="gallery.html" class="selected">Gallery</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+            <div class="numbertext">1 / 9</div>
+            <img src="images/Helsingborg1.jpg" style="width:100%">
+            <div class="text">Helsingborg</div>
+
+        </div>
+    
+        <div class="mySlides fade">
+
+            <div class="numbertext">2 / 9</div>
+            <img src="images/Helsingborg2.jpg" style="width:100%">
+            <div class="text">Helsingborg 2</div>
+
+        </div>
+    
+        <div class="mySlides fade">
+
+            <div class="numbertext">3 / 9</div>
+            <img src="images/Helsingborg3.jpg" style="width:100%">
+            <div class="text">Helsingborg 3</div>
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="numbertext">4 / 9</div>
+            <img src="images/Lund1.jpeg" style="width:100%">
+            <div class="text">Lund</div>
+
+        </div>
+        
+        <div class="mySlides fade">
+
+            <div class="numbertext">5 / 9</div>
+            <img src="images/Lund2.jpg" style="width:100%">
+            <div class="text">Lund 2</div>
+
+        </div>
+        
+        <div class="mySlides fade">
+
+            <div class="numbertext">6 / 9</div>
+            <img src="images/Lund3.jpg" style="width:100%">
+            <div class="text">Lund 3</div>
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="numbertext">7 / 9</div>
+            <img src="images/Malmö1.jpg" style="width:100%">
+            <div class="text">Malmö</div>
+
+        </div>
+        
+        <div class="mySlides fade">
+
+            <div class="numbertext">8 / 9</div>
+            <img src="images/Malmö2.jpg" style="width:100%">
+            <div class="text">Malmö 2</div>
+
+        </div>
+        
+        <div class="mySlides fade">
+
+            <div class="numbertext">9 / 9</div>
+            <img src="images/Malmö3.jpg" style="width:100%">
+            <div class="text">Malmö 3</div>
+
+        </div>
+    
+        <!-- Next and previous buttons -- "&#10094;" unicode for left arrov -- "&#10095" unicode for right arrow -->
+        <!-- The function "plusSlides" is called on click (it moves the pictures in the slideshow left or right) -->
+        <!-- the n is passed into "plusSlides" and "currentSlide" functions through the inline javascript in the html (the onclick attributes)-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+
+        <!-- The function "currentSlide" is called on click (it shows the picture depending on the slideIndex) -->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+
+    </div> 
+
+    <div class="footer">
+
+        <p>Ljubica Reljic</p>
+
+    </div>
+
+    <script src="script/javascript.js"></script>
+
+</body>
+
+</html>
